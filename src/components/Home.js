@@ -10,6 +10,7 @@ function Home() {
         backgroundImg="model-s.jpg"
         leftBtnText="Custom order"
         rightBtnText="Existing Inventory"
+        id={'models'}
       />
       <Section
         title="Model Y"
@@ -17,6 +18,7 @@ function Home() {
         backgroundImg="model-y.jpg"
         leftBtnText="Custom order"
         rightBtnText="Existing Inventory"
+        id={'modely'}
       />
       <Section
         title="Model 3"
@@ -24,6 +26,7 @@ function Home() {
         backgroundImg="model-3.jpg"
         leftBtnText="Custom order"
         rightBtnText="Existing Inventory"
+        id={'model3'}
       />
       <Section
         title="Model X"
@@ -31,6 +34,7 @@ function Home() {
         backgroundImg="model-x.jpg"
         leftBtnText="Custom order"
         rightBtnText="Existing Inventory"
+        id={'modelx'}
       />
       <Section
         title="Lowest Cost Solar Panels in India"

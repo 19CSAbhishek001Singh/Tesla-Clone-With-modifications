@@ -25,14 +25,15 @@ function Header() {
         <CloseWrapper>
           <CustomClose onClick={() => setBurgerStatus(0)} />
         </CloseWrapper>
+        <li><a href="./#models">Model S</a></li>
+        <li><a href="./#model3">Model 3</a></li>
+        <li><a href="./#modelx">Model X</a></li>
+        <li><a href="./#modely">Model Y</a></li>
         <li><a href="./">Existing Inventory</a></li>
         <li><a href="./">Used Inventory</a></li>
         <li><a href="./">Trade-in</a></li>
         <li><a href="./">Cyber</a></li>
         <li><a href="./">Roadaster</a></li>
-        <li><a href="./">Existing Inventory</a></li>
-        <li><a href="./">Existing Inventory</a></li>
-        <li><a href="./">Existing Inventory</a></li>
       </BurgerNav>
     </Container>
   )
@@ -56,6 +57,7 @@ display:flex;
 align-items:center;
 flex:1;
 justify-content: center;
+cursor:pointer;
 a{
   font-weight:600;
   text-transform:uppercase;

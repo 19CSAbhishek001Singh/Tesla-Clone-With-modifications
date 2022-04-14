@@ -1,10 +1,10 @@
 import React from 'react'
 import styled from "styled-components"
 import Fade from 'react-reveal/Fade';
-function Section({ title, description, leftBtnText, rightBtnText, backgroundImg }) {
+function Section({ title, description, leftBtnText, rightBtnText, backgroundImg ,id}) {
   // unpack props
   return (
-    <Wrap bgImage={backgroundImg}>
+    <Wrap bgImage={backgroundImg} id={id}>
       <Fade bottom>
         <ItemText>
           <h1>{title}</h1>
